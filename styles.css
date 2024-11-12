@@ -36,7 +36,6 @@ html {
 
 main {
     display: grid;
-    padding-top: 40px;
 }
 
 header h1 {
@@ -58,6 +57,10 @@ header p {
     position: relative;
     bottom: 10px;
     z-index: -1
+}
+
+span {
+    display: none;
 }
 
 nav {
@@ -214,14 +217,27 @@ tbody {
 }
 
 #firststep button {
+    display: block;
     padding: 20px 100px;
-    border-radius: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 5px var(--darkgrey);
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    padding: 50px;
     color: var(--white);
+    text-align: center;
+    background-color: var(--teal);
+    border-radius: 0 0 25px 25px;
+}
+
+small ~ small {
+    text-decoration: underline;
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 
