@@ -185,7 +185,7 @@ section section section {
 #why-choose li {
     border-radius: 20px;
     padding: 40px 20px;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 #pricing section{
@@ -251,35 +251,52 @@ small ~ small {
         display: inline;
     }
 
-/*    #one-on-one {
+    #one-on-one {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
 
-    #relationship-coaching {
-        grid-column: 1 / 3;
-        margin-top: 0;
-    }
+        #personal-development {
+            grid-column: 1 /2;
+        }
+        
+        #career-coaching {
+            grid-column: 2 /2;
+        }
 
+        #relationship-coaching {
+            grid-column: 1 /3;
+        }
+    
     #group-coaching {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
+
+        #supportive-community {
+            grid-column: 1 /2;
+        }
+
+        #focused-sessions {
+            grid-column: 2 /2;
+        }
         
     #workshops-seminars {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;
     }
-
+    
     #online-courses {
         display: grid;
         grid-template-columns: 1fr;
+        gap: 20px;
     }
-*/
+
     #why-choose ul {
-        display: flex;
+        display: inline-flex;
         color: white;
     }
 
@@ -333,25 +350,29 @@ small ~ small {
     }
 
     #one-on-one {
-        grid-column: 1 / 2;
+        display: block;
     }
 
     #group-coaching {
-        grid-column: 2 / 3;
+        display: block;
     }
         
     #workshops-seminars {
-        grid-column: 3 / 4;
+        display: block;
     }
 
     #online-courses {
-        grid-column: 4 / 4;
+        display: block;
     }
+
+    #why-choose li {
+        padding: 20px;
+        margin: 10px auto;
+    } 
 
     #pricing {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap:
     }
     
 }
@@ -362,7 +383,9 @@ small ~ small {
 
     main, header, footer {
         max-width: 1280px;
-        margin: 0 auto;    } 
+        margin: 0 auto;    
+    }   
+
 }
 
 /*
