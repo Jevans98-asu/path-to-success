@@ -192,13 +192,9 @@ section section section {
     padding: 20px;
 }
 
-#pricing section {
-    background-color: var(--purple);
-}
-
 table {
     border-collapse: collapse;
-    width: 250px;
+    width: auto;
     margin: 10px auto;
 }
 
@@ -371,6 +367,10 @@ small ~ small {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
     }
+    
+    #our-services .third-level-section {
+        margin-top: 20px;
+    }
 
     #one-on-one {
         display: block;
@@ -386,6 +386,11 @@ small ~ small {
 
     #online-courses {
         display: block;
+    }
+
+    #why-choose ul {
+        display: flex;
+        
     }
 
     #why-choose li {
