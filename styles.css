@@ -192,7 +192,7 @@ section section section {
     padding: 20px;
 }
 
-#pricing section{
+#pricing section {
     background-color: var(--purple);
 }
 
@@ -255,6 +255,15 @@ small ~ small {
         display: inline;
     }
 
+    section section section {
+        padding: 20px;
+        margin: 0;
+    }  
+
+    .second-level-section {
+        margin-top: 20px;
+    }
+
     #one-on-one {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -299,6 +308,10 @@ small ~ small {
         gap: 20px;
     }
 
+    #why-choose h2 {
+        padding-bottom: 0;
+    }
+
     #why-choose ul {
         display: inline-flex;
         color: white;
@@ -306,7 +319,7 @@ small ~ small {
 
     #why-choose li {
         padding: 40px 5px;
-        margin: 5px;
+        margin: 0 auto;
     }
 
     #pricing {
@@ -318,6 +331,12 @@ small ~ small {
         display: grid;
         grid-column: 1 / 2;
     }
+/*
+    #section-test {
+        display: flex;
+        flex-direction: row;
+    }
+*/   
 
     #section-test {
         display:grid;
