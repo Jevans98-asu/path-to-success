@@ -212,14 +212,6 @@ tbody {
     background-color: var(--white);
 }
 
-#first-step a {
-    color: var(--darkgrey);
-    text-transform: uppercase;
-    font-weight:bold;
-    text-align: center;
-    text-decoration: none;
-}
-
 #first-step button {
     display: block;
     padding: 20px 100px;
@@ -227,6 +219,11 @@ tbody {
     border-radius: 15px;
     border: none;
     box-shadow: 5px 5px 5px var(--darkgrey);
+    color: var(--darkgrey);
+    text-transform: uppercase;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer {
@@ -326,20 +323,29 @@ small ~ small {
     #table1 {
         display: grid;
         grid-column: 1 / 2;
-    }
-/*
-    #section-test {
-        display: flex;
-        flex-direction: row;
-    }
-*/   
+    }  
 
-    #section-test {
+    #table2 {
+        display: grid;
+        grid-column: 2 / 2;
+    } 
+
+    #table3 {
+        display: grid;
+        grid-column: 1 / 2;
+    } 
+
+    #table4 {
+        display: grid;
+        grid-column: 2 / 2;
+    } 
+
+    #first-step-2 {
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    #test {
+    #first-step-3 {
         display: grid;
         grid-column: 1 / 2;
     }
@@ -362,7 +368,7 @@ small ~ small {
         padding: 0 20px;
     }
 
-    #our-services {
+    #grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
@@ -372,19 +378,7 @@ small ~ small {
         margin-top: 20px;
     }
 
-    #one-on-one {
-        display: block;
-    }
-
-    #group-coaching {
-        display: block;
-    }
-        
-    #workshops-seminars {
-        display: block;
-    }
-
-    #online-courses {
+    #our-services .second-level-section {
         display: block;
     }
 
@@ -399,9 +393,24 @@ small ~ small {
     } 
 
     #pricing {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    #table1 {
+        grid-column: 1 / 2;
+    }  
+
+    #table2 {
+        grid-column: 2 / 2;
+    } 
+
+    #table3 {
+        grid-column: 3 / 4;
+    } 
+
+    #table4 {
+        grid-column: 4 / 4;
+    } 
     
 }
 
@@ -442,4 +451,6 @@ Lavender: #6B8FE7
 Yellow: #E9BB57; 
 Pink:#D9526F;
 Dark-gray:#1E1E1E; 
-White:#ffffff; */
+White:#ffffff; 
+
+*/
